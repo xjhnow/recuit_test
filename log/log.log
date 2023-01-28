@@ -1,0 +1,1491 @@
+2022-10-24 22:59:04,797 - [test_schoolmange.py-->line:47] - ERROR: 用例：新增学校---未通过
+2022-10-24 22:59:04,797 - [test_schoolmange.py-->line:48] - ERROR: 1 != 101
+Traceback (most recent call last):
+  File "E:\Program Files\JetBrains\RecruitAPI\testcases\test_schoolmange.py", line 40, in test_login
+    self.assertEqual(expected['code'], res['code'], )
+  File "E:\Program Files\Python38\lib\unittest\case.py", line 912, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "E:\Program Files\Python38\lib\unittest\case.py", line 905, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 1 != 101
+2022-10-24 22:59:04,811 - [test_schoolmange.py-->line:47] - ERROR: 用例：新增学校名为空---未通过
+2022-10-24 22:59:04,811 - [test_schoolmange.py-->line:48] - ERROR: 102 != 101
+Traceback (most recent call last):
+  File "E:\Program Files\JetBrains\RecruitAPI\testcases\test_schoolmange.py", line 40, in test_login
+    self.assertEqual(expected['code'], res['code'], )
+  File "E:\Program Files\Python38\lib\unittest\case.py", line 912, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "E:\Program Files\Python38\lib\unittest\case.py", line 905, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 102 != 101
+2022-10-24 22:59:04,818 - [test_schoolmange.py-->line:47] - ERROR: 用例：新增学校类型为空---未通过
+2022-10-24 22:59:04,818 - [test_schoolmange.py-->line:48] - ERROR: 102 != 101
+Traceback (most recent call last):
+  File "E:\Program Files\JetBrains\RecruitAPI\testcases\test_schoolmange.py", line 40, in test_login
+    self.assertEqual(expected['code'], res['code'], )
+  File "E:\Program Files\Python38\lib\unittest\case.py", line 912, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "E:\Program Files\Python38\lib\unittest\case.py", line 905, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 102 != 101
+2022-10-25 20:47:20,132 - [test_schoolmange.py-->line:48] - ERROR: 用例：新增重复的学校---未通过
+2022-10-25 20:47:20,140 - [test_schoolmange.py-->line:49] - ERROR:  :: 101 != 1
+Traceback (most recent call last):
+  File "E:\Program Files\JetBrains\PyCharm 2020.1.3\plugins\python\helpers\pycharm\teamcity\diff_tools.py", line 32, in _patched_equals
+    old(self, first, second, msg)
+  File "E:\Program Files\Python38\lib\unittest\case.py", line 912, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "E:\Program Files\Python38\lib\unittest\case.py", line 905, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 101 != 1
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\Program Files\JetBrains\RecruitAPI\testcases\test_schoolmange.py", line 41, in test_login
+    self.assertEqual(expected['code'], res['code'], )
+  File "E:\Program Files\JetBrains\PyCharm 2020.1.3\plugins\python\helpers\pycharm\teamcity\diff_tools.py", line 38, in _patched_equals
+    raise error
+teamcity.diff_tools.EqualsAssertionError:  :: 101 != 1
+2022-10-25 20:47:20,165 - [test_schoolmange.py-->line:48] - ERROR: 用例：新增学校名为空---未通过
+2022-10-25 20:47:20,165 - [test_schoolmange.py-->line:49] - ERROR:  :: 102 != 1
+Traceback (most recent call last):
+  File "E:\Program Files\JetBrains\PyCharm 2020.1.3\plugins\python\helpers\pycharm\teamcity\diff_tools.py", line 32, in _patched_equals
+    old(self, first, second, msg)
+  File "E:\Program Files\Python38\lib\unittest\case.py", line 912, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "E:\Program Files\Python38\lib\unittest\case.py", line 905, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 102 != 1
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\Program Files\JetBrains\RecruitAPI\testcases\test_schoolmange.py", line 41, in test_login
+    self.assertEqual(expected['code'], res['code'], )
+  File "E:\Program Files\JetBrains\PyCharm 2020.1.3\plugins\python\helpers\pycharm\teamcity\diff_tools.py", line 38, in _patched_equals
+    raise error
+teamcity.diff_tools.EqualsAssertionError:  :: 102 != 1
+2022-10-25 20:47:20,179 - [test_schoolmange.py-->line:48] - ERROR: 用例：新增学校类型为空---未通过
+2022-10-25 20:47:20,180 - [test_schoolmange.py-->line:49] - ERROR:  :: 102 != 1
+Traceback (most recent call last):
+  File "E:\Program Files\JetBrains\PyCharm 2020.1.3\plugins\python\helpers\pycharm\teamcity\diff_tools.py", line 32, in _patched_equals
+    old(self, first, second, msg)
+  File "E:\Program Files\Python38\lib\unittest\case.py", line 912, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "E:\Program Files\Python38\lib\unittest\case.py", line 905, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 102 != 1
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\Program Files\JetBrains\RecruitAPI\testcases\test_schoolmange.py", line 41, in test_login
+    self.assertEqual(expected['code'], res['code'], )
+  File "E:\Program Files\JetBrains\PyCharm 2020.1.3\plugins\python\helpers\pycharm\teamcity\diff_tools.py", line 38, in _patched_equals
+    raise error
+teamcity.diff_tools.EqualsAssertionError:  :: 102 != 1
+2022-10-25 20:50:08,288 - [test_schoolmange.py-->line:50] - ERROR: 用例：新增学校名为空---未通过
+2022-10-25 20:50:08,288 - [test_schoolmange.py-->line:51] - ERROR:  :: 102 != 101
+Traceback (most recent call last):
+  File "E:\Program Files\JetBrains\PyCharm 2020.1.3\plugins\python\helpers\pycharm\teamcity\diff_tools.py", line 32, in _patched_equals
+    old(self, first, second, msg)
+  File "E:\Program Files\Python38\lib\unittest\case.py", line 912, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "E:\Program Files\Python38\lib\unittest\case.py", line 905, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 102 != 101
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\Program Files\JetBrains\RecruitAPI\testcases\test_schoolmange.py", line 43, in test_login
+    self.assertEqual(expected['code'], res['code'], )
+  File "E:\Program Files\JetBrains\PyCharm 2020.1.3\plugins\python\helpers\pycharm\teamcity\diff_tools.py", line 38, in _patched_equals
+    raise error
+teamcity.diff_tools.EqualsAssertionError:  :: 102 != 101
+2022-10-25 20:50:08,300 - [test_schoolmange.py-->line:50] - ERROR: 用例：新增学校类型为空---未通过
+2022-10-25 20:50:08,300 - [test_schoolmange.py-->line:51] - ERROR:  :: 102 != 101
+Traceback (most recent call last):
+  File "E:\Program Files\JetBrains\PyCharm 2020.1.3\plugins\python\helpers\pycharm\teamcity\diff_tools.py", line 32, in _patched_equals
+    old(self, first, second, msg)
+  File "E:\Program Files\Python38\lib\unittest\case.py", line 912, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "E:\Program Files\Python38\lib\unittest\case.py", line 905, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 102 != 101
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\Program Files\JetBrains\RecruitAPI\testcases\test_schoolmange.py", line 43, in test_login
+    self.assertEqual(expected['code'], res['code'], )
+  File "E:\Program Files\JetBrains\PyCharm 2020.1.3\plugins\python\helpers\pycharm\teamcity\diff_tools.py", line 38, in _patched_equals
+    raise error
+teamcity.diff_tools.EqualsAssertionError:  :: 102 != 101
+2022-10-25 21:00:50,324 - [test_schoolmange.py-->line:49] - ERROR: 用例：新增重复的学校---未通过
+2022-10-25 21:00:50,325 - [test_schoolmange.py-->line:50] - ERROR:  :: 101 != 1
+Traceback (most recent call last):
+  File "E:\Program Files\JetBrains\PyCharm 2020.1.3\plugins\python\helpers\pycharm\teamcity\diff_tools.py", line 32, in _patched_equals
+    old(self, first, second, msg)
+  File "E:\Program Files\Python38\lib\unittest\case.py", line 912, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "E:\Program Files\Python38\lib\unittest\case.py", line 905, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 101 != 1
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\Program Files\JetBrains\RecruitAPI\testcases\test_schoolmange.py", line 42, in test_login
+    self.assertEqual(expected['code'], res['code'], )
+  File "E:\Program Files\JetBrains\PyCharm 2020.1.3\plugins\python\helpers\pycharm\teamcity\diff_tools.py", line 38, in _patched_equals
+    raise error
+teamcity.diff_tools.EqualsAssertionError:  :: 101 != 1
+2022-10-25 21:00:50,339 - [test_schoolmange.py-->line:49] - ERROR: 用例：新增学校名为空---未通过
+2022-10-25 21:00:50,339 - [test_schoolmange.py-->line:50] - ERROR:  :: 102 != 1
+Traceback (most recent call last):
+  File "E:\Program Files\JetBrains\PyCharm 2020.1.3\plugins\python\helpers\pycharm\teamcity\diff_tools.py", line 32, in _patched_equals
+    old(self, first, second, msg)
+  File "E:\Program Files\Python38\lib\unittest\case.py", line 912, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "E:\Program Files\Python38\lib\unittest\case.py", line 905, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 102 != 1
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\Program Files\JetBrains\RecruitAPI\testcases\test_schoolmange.py", line 42, in test_login
+    self.assertEqual(expected['code'], res['code'], )
+  File "E:\Program Files\JetBrains\PyCharm 2020.1.3\plugins\python\helpers\pycharm\teamcity\diff_tools.py", line 38, in _patched_equals
+    raise error
+teamcity.diff_tools.EqualsAssertionError:  :: 102 != 1
+2022-10-25 21:00:50,353 - [test_schoolmange.py-->line:49] - ERROR: 用例：新增学校类型为空---未通过
+2022-10-25 21:00:50,353 - [test_schoolmange.py-->line:50] - ERROR:  :: 102 != 1
+Traceback (most recent call last):
+  File "E:\Program Files\JetBrains\PyCharm 2020.1.3\plugins\python\helpers\pycharm\teamcity\diff_tools.py", line 32, in _patched_equals
+    old(self, first, second, msg)
+  File "E:\Program Files\Python38\lib\unittest\case.py", line 912, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "E:\Program Files\Python38\lib\unittest\case.py", line 905, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 102 != 1
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\Program Files\JetBrains\RecruitAPI\testcases\test_schoolmange.py", line 42, in test_login
+    self.assertEqual(expected['code'], res['code'], )
+  File "E:\Program Files\JetBrains\PyCharm 2020.1.3\plugins\python\helpers\pycharm\teamcity\diff_tools.py", line 38, in _patched_equals
+    raise error
+teamcity.diff_tools.EqualsAssertionError:  :: 102 != 1
+2022-10-25 21:02:22,024 - [test_schoolmange.py-->line:49] - ERROR: 用例：新增学校名为空---未通过
+2022-10-25 21:02:22,024 - [test_schoolmange.py-->line:50] - ERROR:  :: 102 != 101
+Traceback (most recent call last):
+  File "E:\Program Files\JetBrains\PyCharm 2020.1.3\plugins\python\helpers\pycharm\teamcity\diff_tools.py", line 32, in _patched_equals
+    old(self, first, second, msg)
+  File "E:\Program Files\Python38\lib\unittest\case.py", line 912, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "E:\Program Files\Python38\lib\unittest\case.py", line 905, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 102 != 101
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\Program Files\JetBrains\RecruitAPI\testcases\test_schoolmange.py", line 42, in test_login
+    self.assertEqual(expected['code'], res['code'], )
+  File "E:\Program Files\JetBrains\PyCharm 2020.1.3\plugins\python\helpers\pycharm\teamcity\diff_tools.py", line 38, in _patched_equals
+    raise error
+teamcity.diff_tools.EqualsAssertionError:  :: 102 != 101
+2022-10-25 21:02:22,036 - [test_schoolmange.py-->line:49] - ERROR: 用例：新增学校类型为空---未通过
+2022-10-25 21:02:22,036 - [test_schoolmange.py-->line:50] - ERROR:  :: 102 != 101
+Traceback (most recent call last):
+  File "E:\Program Files\JetBrains\PyCharm 2020.1.3\plugins\python\helpers\pycharm\teamcity\diff_tools.py", line 32, in _patched_equals
+    old(self, first, second, msg)
+  File "E:\Program Files\Python38\lib\unittest\case.py", line 912, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "E:\Program Files\Python38\lib\unittest\case.py", line 905, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 102 != 101
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\Program Files\JetBrains\RecruitAPI\testcases\test_schoolmange.py", line 42, in test_login
+    self.assertEqual(expected['code'], res['code'], )
+  File "E:\Program Files\JetBrains\PyCharm 2020.1.3\plugins\python\helpers\pycharm\teamcity\diff_tools.py", line 38, in _patched_equals
+    raise error
+teamcity.diff_tools.EqualsAssertionError:  :: 102 != 101
+2022-10-25 21:02:27,806 - [test_schoolmange.py-->line:49] - ERROR: 用例：新增学校名为空---未通过
+2022-10-25 21:02:27,806 - [test_schoolmange.py-->line:50] - ERROR:  :: 102 != 101
+Traceback (most recent call last):
+  File "E:\Program Files\JetBrains\PyCharm 2020.1.3\plugins\python\helpers\pycharm\teamcity\diff_tools.py", line 32, in _patched_equals
+    old(self, first, second, msg)
+  File "E:\Program Files\Python38\lib\unittest\case.py", line 912, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "E:\Program Files\Python38\lib\unittest\case.py", line 905, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 102 != 101
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\Program Files\JetBrains\RecruitAPI\testcases\test_schoolmange.py", line 42, in test_login
+    self.assertEqual(expected['code'], res['code'], )
+  File "E:\Program Files\JetBrains\PyCharm 2020.1.3\plugins\python\helpers\pycharm\teamcity\diff_tools.py", line 38, in _patched_equals
+    raise error
+teamcity.diff_tools.EqualsAssertionError:  :: 102 != 101
+2022-10-25 21:02:27,815 - [test_schoolmange.py-->line:49] - ERROR: 用例：新增学校类型为空---未通过
+2022-10-25 21:02:27,815 - [test_schoolmange.py-->line:50] - ERROR:  :: 102 != 101
+Traceback (most recent call last):
+  File "E:\Program Files\JetBrains\PyCharm 2020.1.3\plugins\python\helpers\pycharm\teamcity\diff_tools.py", line 32, in _patched_equals
+    old(self, first, second, msg)
+  File "E:\Program Files\Python38\lib\unittest\case.py", line 912, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "E:\Program Files\Python38\lib\unittest\case.py", line 905, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 102 != 101
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\Program Files\JetBrains\RecruitAPI\testcases\test_schoolmange.py", line 42, in test_login
+    self.assertEqual(expected['code'], res['code'], )
+  File "E:\Program Files\JetBrains\PyCharm 2020.1.3\plugins\python\helpers\pycharm\teamcity\diff_tools.py", line 38, in _patched_equals
+    raise error
+teamcity.diff_tools.EqualsAssertionError:  :: 102 != 101
+2022-10-25 21:16:33,708 - [test_schoolmange.py-->line:49] - ERROR: 用例：新增学校名为空---未通过
+2022-10-25 21:16:33,708 - [test_schoolmange.py-->line:50] - ERROR:  :: 102 != 1
+Traceback (most recent call last):
+  File "E:\Program Files\JetBrains\PyCharm 2020.1.3\plugins\python\helpers\pycharm\teamcity\diff_tools.py", line 32, in _patched_equals
+    old(self, first, second, msg)
+  File "E:\Program Files\Python38\lib\unittest\case.py", line 912, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "E:\Program Files\Python38\lib\unittest\case.py", line 905, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 102 != 1
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\Program Files\JetBrains\RecruitAPI\testcases\test_schoolmange.py", line 42, in test_login
+    self.assertEqual(expected['code'], res['code'], )
+  File "E:\Program Files\JetBrains\PyCharm 2020.1.3\plugins\python\helpers\pycharm\teamcity\diff_tools.py", line 38, in _patched_equals
+    raise error
+teamcity.diff_tools.EqualsAssertionError:  :: 102 != 1
+2022-10-25 21:16:33,813 - [test_schoolmange.py-->line:49] - ERROR: 用例：新增学校类型为空---未通过
+2022-10-25 21:16:33,813 - [test_schoolmange.py-->line:50] - ERROR:  :: 102 != 1
+Traceback (most recent call last):
+  File "E:\Program Files\JetBrains\PyCharm 2020.1.3\plugins\python\helpers\pycharm\teamcity\diff_tools.py", line 32, in _patched_equals
+    old(self, first, second, msg)
+  File "E:\Program Files\Python38\lib\unittest\case.py", line 912, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "E:\Program Files\Python38\lib\unittest\case.py", line 905, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 102 != 1
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\Program Files\JetBrains\RecruitAPI\testcases\test_schoolmange.py", line 42, in test_login
+    self.assertEqual(expected['code'], res['code'], )
+  File "E:\Program Files\JetBrains\PyCharm 2020.1.3\plugins\python\helpers\pycharm\teamcity\diff_tools.py", line 38, in _patched_equals
+    raise error
+teamcity.diff_tools.EqualsAssertionError:  :: 102 != 1
+2022-10-25 21:19:33,848 - [test_schoolmange.py-->line:49] - ERROR: 用例：新增学校---未通过
+2022-10-25 21:19:33,848 - [test_schoolmange.py-->line:50] - ERROR:  :: 1 != 101
+Traceback (most recent call last):
+  File "E:\Program Files\JetBrains\PyCharm 2020.1.3\plugins\python\helpers\pycharm\teamcity\diff_tools.py", line 32, in _patched_equals
+    old(self, first, second, msg)
+  File "E:\Program Files\Python38\lib\unittest\case.py", line 912, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "E:\Program Files\Python38\lib\unittest\case.py", line 905, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 1 != 101
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\Program Files\JetBrains\RecruitAPI\testcases\test_schoolmange.py", line 42, in test_login
+    self.assertEqual(expected['code'], res['code'], )
+  File "E:\Program Files\JetBrains\PyCharm 2020.1.3\plugins\python\helpers\pycharm\teamcity\diff_tools.py", line 38, in _patched_equals
+    raise error
+teamcity.diff_tools.EqualsAssertionError:  :: 1 != 101
+2022-10-25 21:19:34,304 - [test_schoolmange.py-->line:49] - ERROR: 用例：新增学校名为空---未通过
+2022-10-25 21:19:34,304 - [test_schoolmange.py-->line:50] - ERROR:  :: 102 != 101
+Traceback (most recent call last):
+  File "E:\Program Files\JetBrains\PyCharm 2020.1.3\plugins\python\helpers\pycharm\teamcity\diff_tools.py", line 32, in _patched_equals
+    old(self, first, second, msg)
+  File "E:\Program Files\Python38\lib\unittest\case.py", line 912, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "E:\Program Files\Python38\lib\unittest\case.py", line 905, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 102 != 101
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\Program Files\JetBrains\RecruitAPI\testcases\test_schoolmange.py", line 42, in test_login
+    self.assertEqual(expected['code'], res['code'], )
+  File "E:\Program Files\JetBrains\PyCharm 2020.1.3\plugins\python\helpers\pycharm\teamcity\diff_tools.py", line 38, in _patched_equals
+    raise error
+teamcity.diff_tools.EqualsAssertionError:  :: 102 != 101
+2022-10-25 21:19:34,341 - [test_schoolmange.py-->line:49] - ERROR: 用例：新增学校类型为空---未通过
+2022-10-25 21:19:34,341 - [test_schoolmange.py-->line:50] - ERROR:  :: 102 != 101
+Traceback (most recent call last):
+  File "E:\Program Files\JetBrains\PyCharm 2020.1.3\plugins\python\helpers\pycharm\teamcity\diff_tools.py", line 32, in _patched_equals
+    old(self, first, second, msg)
+  File "E:\Program Files\Python38\lib\unittest\case.py", line 912, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "E:\Program Files\Python38\lib\unittest\case.py", line 905, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 102 != 101
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\Program Files\JetBrains\RecruitAPI\testcases\test_schoolmange.py", line 42, in test_login
+    self.assertEqual(expected['code'], res['code'], )
+  File "E:\Program Files\JetBrains\PyCharm 2020.1.3\plugins\python\helpers\pycharm\teamcity\diff_tools.py", line 38, in _patched_equals
+    raise error
+teamcity.diff_tools.EqualsAssertionError:  :: 102 != 101
+2022-10-25 21:21:29,387 - [test_schoolmange.py-->line:49] - ERROR: 用例：新增学校---未通过
+2022-10-25 21:21:29,387 - [test_schoolmange.py-->line:50] - ERROR:  :: 1 != 101
+Traceback (most recent call last):
+  File "E:\Program Files\JetBrains\PyCharm 2020.1.3\plugins\python\helpers\pycharm\teamcity\diff_tools.py", line 32, in _patched_equals
+    old(self, first, second, msg)
+  File "E:\Program Files\Python38\lib\unittest\case.py", line 912, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "E:\Program Files\Python38\lib\unittest\case.py", line 905, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 1 != 101
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\Program Files\JetBrains\RecruitAPI\testcases\test_schoolmange.py", line 42, in test_login
+    self.assertEqual(expected['code'], res['code'], )
+  File "E:\Program Files\JetBrains\PyCharm 2020.1.3\plugins\python\helpers\pycharm\teamcity\diff_tools.py", line 38, in _patched_equals
+    raise error
+teamcity.diff_tools.EqualsAssertionError:  :: 1 != 101
+2022-10-25 21:21:29,712 - [test_schoolmange.py-->line:49] - ERROR: 用例：新增学校名为空---未通过
+2022-10-25 21:21:29,712 - [test_schoolmange.py-->line:50] - ERROR:  :: 102 != 101
+Traceback (most recent call last):
+  File "E:\Program Files\JetBrains\PyCharm 2020.1.3\plugins\python\helpers\pycharm\teamcity\diff_tools.py", line 32, in _patched_equals
+    old(self, first, second, msg)
+  File "E:\Program Files\Python38\lib\unittest\case.py", line 912, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "E:\Program Files\Python38\lib\unittest\case.py", line 905, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 102 != 101
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\Program Files\JetBrains\RecruitAPI\testcases\test_schoolmange.py", line 42, in test_login
+    self.assertEqual(expected['code'], res['code'], )
+  File "E:\Program Files\JetBrains\PyCharm 2020.1.3\plugins\python\helpers\pycharm\teamcity\diff_tools.py", line 38, in _patched_equals
+    raise error
+teamcity.diff_tools.EqualsAssertionError:  :: 102 != 101
+2022-10-25 21:21:29,739 - [test_schoolmange.py-->line:49] - ERROR: 用例：新增学校类型为空---未通过
+2022-10-25 21:21:29,739 - [test_schoolmange.py-->line:50] - ERROR:  :: 102 != 101
+Traceback (most recent call last):
+  File "E:\Program Files\JetBrains\PyCharm 2020.1.3\plugins\python\helpers\pycharm\teamcity\diff_tools.py", line 32, in _patched_equals
+    old(self, first, second, msg)
+  File "E:\Program Files\Python38\lib\unittest\case.py", line 912, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "E:\Program Files\Python38\lib\unittest\case.py", line 905, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 102 != 101
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\Program Files\JetBrains\RecruitAPI\testcases\test_schoolmange.py", line 42, in test_login
+    self.assertEqual(expected['code'], res['code'], )
+  File "E:\Program Files\JetBrains\PyCharm 2020.1.3\plugins\python\helpers\pycharm\teamcity\diff_tools.py", line 38, in _patched_equals
+    raise error
+teamcity.diff_tools.EqualsAssertionError:  :: 102 != 101
+2022-10-25 21:35:34,462 - [test_schoolmange.py-->line:49] - ERROR: 用例：新增学校名为空---未通过
+2022-10-25 21:35:34,462 - [test_schoolmange.py-->line:50] - ERROR:  :: 102 != 1
+Traceback (most recent call last):
+  File "E:\Program Files\JetBrains\PyCharm 2020.1.3\plugins\python\helpers\pycharm\teamcity\diff_tools.py", line 32, in _patched_equals
+    old(self, first, second, msg)
+  File "E:\Program Files\Python38\lib\unittest\case.py", line 912, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "E:\Program Files\Python38\lib\unittest\case.py", line 905, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 102 != 1
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\Program Files\JetBrains\RecruitAPI\testcases\test_schoolmange.py", line 42, in test_login
+    self.assertEqual(expected['code'], res['code'], )
+  File "E:\Program Files\JetBrains\PyCharm 2020.1.3\plugins\python\helpers\pycharm\teamcity\diff_tools.py", line 38, in _patched_equals
+    raise error
+teamcity.diff_tools.EqualsAssertionError:  :: 102 != 1
+2022-10-25 21:35:34,475 - [test_schoolmange.py-->line:49] - ERROR: 用例：新增学校类型为空---未通过
+2022-10-25 21:35:34,475 - [test_schoolmange.py-->line:50] - ERROR:  :: 102 != 1
+Traceback (most recent call last):
+  File "E:\Program Files\JetBrains\PyCharm 2020.1.3\plugins\python\helpers\pycharm\teamcity\diff_tools.py", line 32, in _patched_equals
+    old(self, first, second, msg)
+  File "E:\Program Files\Python38\lib\unittest\case.py", line 912, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "E:\Program Files\Python38\lib\unittest\case.py", line 905, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 102 != 1
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\Program Files\JetBrains\RecruitAPI\testcases\test_schoolmange.py", line 42, in test_login
+    self.assertEqual(expected['code'], res['code'], )
+  File "E:\Program Files\JetBrains\PyCharm 2020.1.3\plugins\python\helpers\pycharm\teamcity\diff_tools.py", line 38, in _patched_equals
+    raise error
+teamcity.diff_tools.EqualsAssertionError:  :: 102 != 1
+2022-10-25 22:09:18,354 - [test_schoolmange.py-->line:49] - ERROR: 用例：新增学校名为空---未通过
+2022-10-25 22:09:18,354 - [test_schoolmange.py-->line:50] - ERROR:  :: 102 != 1
+Traceback (most recent call last):
+  File "E:\Program Files\JetBrains\PyCharm 2020.1.3\plugins\python\helpers\pycharm\teamcity\diff_tools.py", line 32, in _patched_equals
+    old(self, first, second, msg)
+  File "E:\Program Files\Python38\lib\unittest\case.py", line 912, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "E:\Program Files\Python38\lib\unittest\case.py", line 905, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 102 != 1
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\Program Files\JetBrains\RecruitAPI\testcases\test_schoolmange.py", line 42, in test_login
+    self.assertEqual(expected['code'], res['code'], )
+  File "E:\Program Files\JetBrains\PyCharm 2020.1.3\plugins\python\helpers\pycharm\teamcity\diff_tools.py", line 38, in _patched_equals
+    raise error
+teamcity.diff_tools.EqualsAssertionError:  :: 102 != 1
+2022-10-25 22:09:18,368 - [test_schoolmange.py-->line:49] - ERROR: 用例：新增学校类型为空---未通过
+2022-10-25 22:09:18,369 - [test_schoolmange.py-->line:50] - ERROR:  :: 102 != 1
+Traceback (most recent call last):
+  File "E:\Program Files\JetBrains\PyCharm 2020.1.3\plugins\python\helpers\pycharm\teamcity\diff_tools.py", line 32, in _patched_equals
+    old(self, first, second, msg)
+  File "E:\Program Files\Python38\lib\unittest\case.py", line 912, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "E:\Program Files\Python38\lib\unittest\case.py", line 905, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 102 != 1
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\Program Files\JetBrains\RecruitAPI\testcases\test_schoolmange.py", line 42, in test_login
+    self.assertEqual(expected['code'], res['code'], )
+  File "E:\Program Files\JetBrains\PyCharm 2020.1.3\plugins\python\helpers\pycharm\teamcity\diff_tools.py", line 38, in _patched_equals
+    raise error
+teamcity.diff_tools.EqualsAssertionError:  :: 102 != 1
+2022-10-25 22:10:15,881 - [test_schoolmange.py-->line:49] - ERROR: 用例：新增学校名为空---未通过
+2022-10-25 22:10:15,881 - [test_schoolmange.py-->line:50] - ERROR: 102 != 101
+Traceback (most recent call last):
+  File "E:\Program Files\JetBrains\RecruitAPI\testcases\test_schoolmange.py", line 42, in test_login
+    self.assertEqual(expected['code'], res['code'], )
+  File "E:\Program Files\Python38\lib\unittest\case.py", line 912, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "E:\Program Files\Python38\lib\unittest\case.py", line 905, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 102 != 101
+2022-10-25 22:10:15,889 - [test_schoolmange.py-->line:49] - ERROR: 用例：新增学校类型为空---未通过
+2022-10-25 22:10:15,890 - [test_schoolmange.py-->line:50] - ERROR: 102 != 101
+Traceback (most recent call last):
+  File "E:\Program Files\JetBrains\RecruitAPI\testcases\test_schoolmange.py", line 42, in test_login
+    self.assertEqual(expected['code'], res['code'], )
+  File "E:\Program Files\Python38\lib\unittest\case.py", line 912, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "E:\Program Files\Python38\lib\unittest\case.py", line 905, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 102 != 101
+2022-11-12 22:13:56,558 - [test_schoolmange.py-->line:48] - ERROR: 用例：新增学校名为空---未通过
+2022-11-12 22:13:56,578 - [test_schoolmange.py-->line:49] - ERROR:  :: 102 != 1
+Traceback (most recent call last):
+  File "E:\Program Files\JetBrains\PyCharm 2020.1.3\plugins\python\helpers\pycharm\teamcity\diff_tools.py", line 32, in _patched_equals
+    old(self, first, second, msg)
+  File "E:\Program Files\Python38\lib\unittest\case.py", line 912, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "E:\Program Files\Python38\lib\unittest\case.py", line 905, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 102 != 1
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\Program Files\JetBrains\RecruitAPI\testcases\test_schoolmange.py", line 41, in test_login
+    self.assertEqual(expected['code'], res['code'], )
+  File "E:\Program Files\JetBrains\PyCharm 2020.1.3\plugins\python\helpers\pycharm\teamcity\diff_tools.py", line 38, in _patched_equals
+    raise error
+teamcity.diff_tools.EqualsAssertionError:  :: 102 != 1
+2022-11-12 22:13:56,613 - [test_schoolmange.py-->line:48] - ERROR: 用例：新增学校类型为空---未通过
+2022-11-12 22:13:56,613 - [test_schoolmange.py-->line:49] - ERROR:  :: 102 != 1
+Traceback (most recent call last):
+  File "E:\Program Files\JetBrains\PyCharm 2020.1.3\plugins\python\helpers\pycharm\teamcity\diff_tools.py", line 32, in _patched_equals
+    old(self, first, second, msg)
+  File "E:\Program Files\Python38\lib\unittest\case.py", line 912, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "E:\Program Files\Python38\lib\unittest\case.py", line 905, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 102 != 1
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\Program Files\JetBrains\RecruitAPI\testcases\test_schoolmange.py", line 41, in test_login
+    self.assertEqual(expected['code'], res['code'], )
+  File "E:\Program Files\JetBrains\PyCharm 2020.1.3\plugins\python\helpers\pycharm\teamcity\diff_tools.py", line 38, in _patched_equals
+    raise error
+teamcity.diff_tools.EqualsAssertionError:  :: 102 != 1
+2022-11-12 22:24:43,562 - [test_schoolmange.py-->line:48] - ERROR: 用例：新增学校名为空---未通过
+2022-11-12 22:24:43,562 - [test_schoolmange.py-->line:49] - ERROR:  :: 102 != 1
+Traceback (most recent call last):
+  File "E:\Program Files\JetBrains\PyCharm 2020.1.3\plugins\python\helpers\pycharm\teamcity\diff_tools.py", line 32, in _patched_equals
+    old(self, first, second, msg)
+  File "E:\Program Files\Python38\lib\unittest\case.py", line 912, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "E:\Program Files\Python38\lib\unittest\case.py", line 905, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 102 != 1
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\Program Files\JetBrains\RecruitAPI\testcases\test_schoolmange.py", line 41, in test_login
+    self.assertEqual(expected['code'], res['code'], )
+  File "E:\Program Files\JetBrains\PyCharm 2020.1.3\plugins\python\helpers\pycharm\teamcity\diff_tools.py", line 38, in _patched_equals
+    raise error
+teamcity.diff_tools.EqualsAssertionError:  :: 102 != 1
+2022-11-12 22:24:43,580 - [test_schoolmange.py-->line:48] - ERROR: 用例：新增学校类型为空---未通过
+2022-11-12 22:24:43,580 - [test_schoolmange.py-->line:49] - ERROR:  :: 102 != 1
+Traceback (most recent call last):
+  File "E:\Program Files\JetBrains\PyCharm 2020.1.3\plugins\python\helpers\pycharm\teamcity\diff_tools.py", line 32, in _patched_equals
+    old(self, first, second, msg)
+  File "E:\Program Files\Python38\lib\unittest\case.py", line 912, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "E:\Program Files\Python38\lib\unittest\case.py", line 905, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 102 != 1
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\Program Files\JetBrains\RecruitAPI\testcases\test_schoolmange.py", line 41, in test_login
+    self.assertEqual(expected['code'], res['code'], )
+  File "E:\Program Files\JetBrains\PyCharm 2020.1.3\plugins\python\helpers\pycharm\teamcity\diff_tools.py", line 38, in _patched_equals
+    raise error
+teamcity.diff_tools.EqualsAssertionError:  :: 102 != 1
+2022-11-13 00:05:35,559 - [test_schoolmange.py-->line:48] - ERROR: 用例：新增学校名为空---未通过
+2022-11-13 00:05:35,559 - [test_schoolmange.py-->line:49] - ERROR:  :: 102 != 1
+Traceback (most recent call last):
+  File "E:\Program Files\JetBrains\PyCharm 2020.1.3\plugins\python\helpers\pycharm\teamcity\diff_tools.py", line 32, in _patched_equals
+    old(self, first, second, msg)
+  File "E:\Program Files\Python38\lib\unittest\case.py", line 912, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "E:\Program Files\Python38\lib\unittest\case.py", line 905, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 102 != 1
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\Program Files\JetBrains\RecruitAPI\testcases\test_schoolmange.py", line 41, in test_login
+    self.assertEqual(expected['code'], res['code'], )
+  File "E:\Program Files\JetBrains\PyCharm 2020.1.3\plugins\python\helpers\pycharm\teamcity\diff_tools.py", line 38, in _patched_equals
+    raise error
+teamcity.diff_tools.EqualsAssertionError:  :: 102 != 1
+2022-11-13 00:05:35,576 - [test_schoolmange.py-->line:48] - ERROR: 用例：新增学校类型为空---未通过
+2022-11-13 00:05:35,576 - [test_schoolmange.py-->line:49] - ERROR:  :: 102 != 1
+Traceback (most recent call last):
+  File "E:\Program Files\JetBrains\PyCharm 2020.1.3\plugins\python\helpers\pycharm\teamcity\diff_tools.py", line 32, in _patched_equals
+    old(self, first, second, msg)
+  File "E:\Program Files\Python38\lib\unittest\case.py", line 912, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "E:\Program Files\Python38\lib\unittest\case.py", line 905, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 102 != 1
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\Program Files\JetBrains\RecruitAPI\testcases\test_schoolmange.py", line 41, in test_login
+    self.assertEqual(expected['code'], res['code'], )
+  File "E:\Program Files\JetBrains\PyCharm 2020.1.3\plugins\python\helpers\pycharm\teamcity\diff_tools.py", line 38, in _patched_equals
+    raise error
+teamcity.diff_tools.EqualsAssertionError:  :: 102 != 1
+2022-11-13 00:06:27,363 - [schoolmange.py-->line:45] - ERROR: 用例：新增学校名为空---未通过
+2022-11-13 00:06:27,363 - [schoolmange.py-->line:46] - ERROR:  :: 102 != 101
+Traceback (most recent call last):
+  File "E:\Program Files\JetBrains\PyCharm 2020.1.3\plugins\python\helpers\pycharm\teamcity\diff_tools.py", line 32, in _patched_equals
+    old(self, first, second, msg)
+  File "E:\Program Files\Python38\lib\unittest\case.py", line 912, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "E:\Program Files\Python38\lib\unittest\case.py", line 905, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 102 != 101
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\Program Files\JetBrains\RecruitAPI\testcases\schoolmange.py", line 42, in test_schoolmange
+    self.assertEqual(expected['code'],res['code'],)
+  File "E:\Program Files\JetBrains\PyCharm 2020.1.3\plugins\python\helpers\pycharm\teamcity\diff_tools.py", line 38, in _patched_equals
+    raise error
+teamcity.diff_tools.EqualsAssertionError:  :: 102 != 101
+2022-11-13 00:06:27,376 - [schoolmange.py-->line:45] - ERROR: 用例：新增学校类型为空---未通过
+2022-11-13 00:06:27,376 - [schoolmange.py-->line:46] - ERROR:  :: 102 != 101
+Traceback (most recent call last):
+  File "E:\Program Files\JetBrains\PyCharm 2020.1.3\plugins\python\helpers\pycharm\teamcity\diff_tools.py", line 32, in _patched_equals
+    old(self, first, second, msg)
+  File "E:\Program Files\Python38\lib\unittest\case.py", line 912, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "E:\Program Files\Python38\lib\unittest\case.py", line 905, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 102 != 101
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\Program Files\JetBrains\RecruitAPI\testcases\schoolmange.py", line 42, in test_schoolmange
+    self.assertEqual(expected['code'],res['code'],)
+  File "E:\Program Files\JetBrains\PyCharm 2020.1.3\plugins\python\helpers\pycharm\teamcity\diff_tools.py", line 38, in _patched_equals
+    raise error
+teamcity.diff_tools.EqualsAssertionError:  :: 102 != 101
+2022-11-13 00:09:27,452 - [schoolmange.py-->line:46] - ERROR: 用例：新增学校---未通过
+2022-11-13 00:09:27,452 - [schoolmange.py-->line:47] - ERROR:  :: 1 != 101
+Traceback (most recent call last):
+  File "E:\Program Files\JetBrains\PyCharm 2020.1.3\plugins\python\helpers\pycharm\teamcity\diff_tools.py", line 32, in _patched_equals
+    old(self, first, second, msg)
+  File "E:\Program Files\Python38\lib\unittest\case.py", line 912, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "E:\Program Files\Python38\lib\unittest\case.py", line 905, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 1 != 101
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\Program Files\JetBrains\RecruitAPI\testcases\schoolmange.py", line 43, in test_schoolmange
+    self.assertEqual(expected['code'],res['code'],)
+  File "E:\Program Files\JetBrains\PyCharm 2020.1.3\plugins\python\helpers\pycharm\teamcity\diff_tools.py", line 38, in _patched_equals
+    raise error
+teamcity.diff_tools.EqualsAssertionError:  :: 1 != 101
+2022-11-13 00:09:27,474 - [schoolmange.py-->line:46] - ERROR: 用例：新增学校名为空---未通过
+2022-11-13 00:09:27,474 - [schoolmange.py-->line:47] - ERROR:  :: 102 != 101
+Traceback (most recent call last):
+  File "E:\Program Files\JetBrains\PyCharm 2020.1.3\plugins\python\helpers\pycharm\teamcity\diff_tools.py", line 32, in _patched_equals
+    old(self, first, second, msg)
+  File "E:\Program Files\Python38\lib\unittest\case.py", line 912, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "E:\Program Files\Python38\lib\unittest\case.py", line 905, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 102 != 101
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\Program Files\JetBrains\RecruitAPI\testcases\schoolmange.py", line 43, in test_schoolmange
+    self.assertEqual(expected['code'],res['code'],)
+  File "E:\Program Files\JetBrains\PyCharm 2020.1.3\plugins\python\helpers\pycharm\teamcity\diff_tools.py", line 38, in _patched_equals
+    raise error
+teamcity.diff_tools.EqualsAssertionError:  :: 102 != 101
+2022-11-13 00:09:27,485 - [schoolmange.py-->line:46] - ERROR: 用例：新增学校类型为空---未通过
+2022-11-13 00:09:27,485 - [schoolmange.py-->line:47] - ERROR:  :: 102 != 101
+Traceback (most recent call last):
+  File "E:\Program Files\JetBrains\PyCharm 2020.1.3\plugins\python\helpers\pycharm\teamcity\diff_tools.py", line 32, in _patched_equals
+    old(self, first, second, msg)
+  File "E:\Program Files\Python38\lib\unittest\case.py", line 912, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "E:\Program Files\Python38\lib\unittest\case.py", line 905, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 102 != 101
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\Program Files\JetBrains\RecruitAPI\testcases\schoolmange.py", line 43, in test_schoolmange
+    self.assertEqual(expected['code'],res['code'],)
+  File "E:\Program Files\JetBrains\PyCharm 2020.1.3\plugins\python\helpers\pycharm\teamcity\diff_tools.py", line 38, in _patched_equals
+    raise error
+teamcity.diff_tools.EqualsAssertionError:  :: 102 != 101
+2022-11-13 00:12:36,205 - [schoolmange.py-->line:46] - ERROR: 用例：新增学校名为空---未通过
+2022-11-13 00:12:36,205 - [schoolmange.py-->line:47] - ERROR:  :: 102 != 1
+Traceback (most recent call last):
+  File "E:\Program Files\JetBrains\PyCharm 2020.1.3\plugins\python\helpers\pycharm\teamcity\diff_tools.py", line 32, in _patched_equals
+    old(self, first, second, msg)
+  File "E:\Program Files\Python38\lib\unittest\case.py", line 912, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "E:\Program Files\Python38\lib\unittest\case.py", line 905, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 102 != 1
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\Program Files\JetBrains\RecruitAPI\testcases\schoolmange.py", line 43, in test_schoolmange
+    self.assertEqual(expected['code'],res['code'],)
+  File "E:\Program Files\JetBrains\PyCharm 2020.1.3\plugins\python\helpers\pycharm\teamcity\diff_tools.py", line 38, in _patched_equals
+    raise error
+teamcity.diff_tools.EqualsAssertionError:  :: 102 != 1
+2022-11-13 00:12:36,220 - [schoolmange.py-->line:46] - ERROR: 用例：新增学校类型为空---未通过
+2022-11-13 00:12:36,220 - [schoolmange.py-->line:47] - ERROR:  :: 102 != 1
+Traceback (most recent call last):
+  File "E:\Program Files\JetBrains\PyCharm 2020.1.3\plugins\python\helpers\pycharm\teamcity\diff_tools.py", line 32, in _patched_equals
+    old(self, first, second, msg)
+  File "E:\Program Files\Python38\lib\unittest\case.py", line 912, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "E:\Program Files\Python38\lib\unittest\case.py", line 905, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 102 != 1
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\Program Files\JetBrains\RecruitAPI\testcases\schoolmange.py", line 43, in test_schoolmange
+    self.assertEqual(expected['code'],res['code'],)
+  File "E:\Program Files\JetBrains\PyCharm 2020.1.3\plugins\python\helpers\pycharm\teamcity\diff_tools.py", line 38, in _patched_equals
+    raise error
+teamcity.diff_tools.EqualsAssertionError:  :: 102 != 1
+2022-11-13 00:13:49,148 - [test_schoolmange.py-->line:48] - ERROR: 用例：新增学校名为空---未通过
+2022-11-13 00:13:49,148 - [test_schoolmange.py-->line:49] - ERROR:  :: 102 != 1
+Traceback (most recent call last):
+  File "E:\Program Files\JetBrains\PyCharm 2020.1.3\plugins\python\helpers\pycharm\teamcity\diff_tools.py", line 32, in _patched_equals
+    old(self, first, second, msg)
+  File "E:\Program Files\Python38\lib\unittest\case.py", line 912, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "E:\Program Files\Python38\lib\unittest\case.py", line 905, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 102 != 1
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\Program Files\JetBrains\RecruitAPI\testcases\test_schoolmange.py", line 41, in test_login
+    self.assertEqual(expected['code'], res['code'], )
+  File "E:\Program Files\JetBrains\PyCharm 2020.1.3\plugins\python\helpers\pycharm\teamcity\diff_tools.py", line 38, in _patched_equals
+    raise error
+teamcity.diff_tools.EqualsAssertionError:  :: 102 != 1
+2022-11-13 00:13:49,163 - [test_schoolmange.py-->line:48] - ERROR: 用例：新增学校类型为空---未通过
+2022-11-13 00:13:49,163 - [test_schoolmange.py-->line:49] - ERROR:  :: 102 != 1
+Traceback (most recent call last):
+  File "E:\Program Files\JetBrains\PyCharm 2020.1.3\plugins\python\helpers\pycharm\teamcity\diff_tools.py", line 32, in _patched_equals
+    old(self, first, second, msg)
+  File "E:\Program Files\Python38\lib\unittest\case.py", line 912, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "E:\Program Files\Python38\lib\unittest\case.py", line 905, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 102 != 1
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\Program Files\JetBrains\RecruitAPI\testcases\test_schoolmange.py", line 41, in test_login
+    self.assertEqual(expected['code'], res['code'], )
+  File "E:\Program Files\JetBrains\PyCharm 2020.1.3\plugins\python\helpers\pycharm\teamcity\diff_tools.py", line 38, in _patched_equals
+    raise error
+teamcity.diff_tools.EqualsAssertionError:  :: 102 != 1
+2022-11-13 00:16:18,992 - [test_schoolmange.py-->line:48] - ERROR: 用例：新增学校名为空---未通过
+2022-11-13 00:16:18,992 - [test_schoolmange.py-->line:49] - ERROR:  :: 102 != 101
+Traceback (most recent call last):
+  File "E:\Program Files\JetBrains\PyCharm 2020.1.3\plugins\python\helpers\pycharm\teamcity\diff_tools.py", line 32, in _patched_equals
+    old(self, first, second, msg)
+  File "E:\Program Files\Python38\lib\unittest\case.py", line 912, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "E:\Program Files\Python38\lib\unittest\case.py", line 905, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 102 != 101
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\Program Files\JetBrains\RecruitAPI\testcases\test_schoolmange.py", line 41, in test_login
+    self.assertEqual(expected['code'], res['code'], )
+  File "E:\Program Files\JetBrains\PyCharm 2020.1.3\plugins\python\helpers\pycharm\teamcity\diff_tools.py", line 38, in _patched_equals
+    raise error
+teamcity.diff_tools.EqualsAssertionError:  :: 102 != 101
+2022-11-13 00:16:19,003 - [test_schoolmange.py-->line:48] - ERROR: 用例：新增学校类型为空---未通过
+2022-11-13 00:16:19,003 - [test_schoolmange.py-->line:49] - ERROR:  :: 102 != 101
+Traceback (most recent call last):
+  File "E:\Program Files\JetBrains\PyCharm 2020.1.3\plugins\python\helpers\pycharm\teamcity\diff_tools.py", line 32, in _patched_equals
+    old(self, first, second, msg)
+  File "E:\Program Files\Python38\lib\unittest\case.py", line 912, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "E:\Program Files\Python38\lib\unittest\case.py", line 905, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 102 != 101
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\Program Files\JetBrains\RecruitAPI\testcases\test_schoolmange.py", line 41, in test_login
+    self.assertEqual(expected['code'], res['code'], )
+  File "E:\Program Files\JetBrains\PyCharm 2020.1.3\plugins\python\helpers\pycharm\teamcity\diff_tools.py", line 38, in _patched_equals
+    raise error
+teamcity.diff_tools.EqualsAssertionError:  :: 102 != 101
+2022-11-13 00:18:39,854 - [test_schoolmange.py-->line:48] - ERROR: 用例：新增学校名为空---未通过
+2022-11-13 00:18:39,855 - [test_schoolmange.py-->line:49] - ERROR:  :: 102 != 1
+Traceback (most recent call last):
+  File "E:\Program Files\JetBrains\PyCharm 2020.1.3\plugins\python\helpers\pycharm\teamcity\diff_tools.py", line 32, in _patched_equals
+    old(self, first, second, msg)
+  File "E:\Program Files\Python38\lib\unittest\case.py", line 912, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "E:\Program Files\Python38\lib\unittest\case.py", line 905, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 102 != 1
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\Program Files\JetBrains\RecruitAPI\testcases\test_schoolmange.py", line 41, in test_login
+    self.assertEqual(expected['code'], res['code'], )
+  File "E:\Program Files\JetBrains\PyCharm 2020.1.3\plugins\python\helpers\pycharm\teamcity\diff_tools.py", line 38, in _patched_equals
+    raise error
+teamcity.diff_tools.EqualsAssertionError:  :: 102 != 1
+2022-11-13 00:18:39,873 - [test_schoolmange.py-->line:48] - ERROR: 用例：新增学校类型为空---未通过
+2022-11-13 00:18:39,873 - [test_schoolmange.py-->line:49] - ERROR:  :: 102 != 1
+Traceback (most recent call last):
+  File "E:\Program Files\JetBrains\PyCharm 2020.1.3\plugins\python\helpers\pycharm\teamcity\diff_tools.py", line 32, in _patched_equals
+    old(self, first, second, msg)
+  File "E:\Program Files\Python38\lib\unittest\case.py", line 912, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "E:\Program Files\Python38\lib\unittest\case.py", line 905, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 102 != 1
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\Program Files\JetBrains\RecruitAPI\testcases\test_schoolmange.py", line 41, in test_login
+    self.assertEqual(expected['code'], res['code'], )
+  File "E:\Program Files\JetBrains\PyCharm 2020.1.3\plugins\python\helpers\pycharm\teamcity\diff_tools.py", line 38, in _patched_equals
+    raise error
+teamcity.diff_tools.EqualsAssertionError:  :: 102 != 1
+2022-11-13 00:23:21,529 - [test_schoolmange.py-->line:49] - ERROR: 用例：新增学校名为空---未通过
+2022-11-13 00:23:21,529 - [test_schoolmange.py-->line:50] - ERROR:  :: 102 != 101
+Traceback (most recent call last):
+  File "E:\Program Files\JetBrains\PyCharm 2020.1.3\plugins\python\helpers\pycharm\teamcity\diff_tools.py", line 32, in _patched_equals
+    old(self, first, second, msg)
+  File "E:\Program Files\Python38\lib\unittest\case.py", line 912, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "E:\Program Files\Python38\lib\unittest\case.py", line 905, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 102 != 101
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\Program Files\JetBrains\RecruitAPI\testcases\test_schoolmange.py", line 42, in test_login
+    self.assertEqual(expected['code'], res['code'], )
+  File "E:\Program Files\JetBrains\PyCharm 2020.1.3\plugins\python\helpers\pycharm\teamcity\diff_tools.py", line 38, in _patched_equals
+    raise error
+teamcity.diff_tools.EqualsAssertionError:  :: 102 != 101
+2022-11-13 00:23:21,543 - [test_schoolmange.py-->line:49] - ERROR: 用例：新增学校类型为空---未通过
+2022-11-13 00:23:21,543 - [test_schoolmange.py-->line:50] - ERROR:  :: 102 != 101
+Traceback (most recent call last):
+  File "E:\Program Files\JetBrains\PyCharm 2020.1.3\plugins\python\helpers\pycharm\teamcity\diff_tools.py", line 32, in _patched_equals
+    old(self, first, second, msg)
+  File "E:\Program Files\Python38\lib\unittest\case.py", line 912, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "E:\Program Files\Python38\lib\unittest\case.py", line 905, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 102 != 101
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\Program Files\JetBrains\RecruitAPI\testcases\test_schoolmange.py", line 42, in test_login
+    self.assertEqual(expected['code'], res['code'], )
+  File "E:\Program Files\JetBrains\PyCharm 2020.1.3\plugins\python\helpers\pycharm\teamcity\diff_tools.py", line 38, in _patched_equals
+    raise error
+teamcity.diff_tools.EqualsAssertionError:  :: 102 != 101
+2022-11-13 00:27:11,692 - [test_schoolmange.py-->line:49] - ERROR: 用例：新增学校名为空---未通过
+2022-11-13 00:27:11,692 - [test_schoolmange.py-->line:50] - ERROR:  :: 102 != 101
+Traceback (most recent call last):
+  File "E:\Program Files\JetBrains\PyCharm 2020.1.3\plugins\python\helpers\pycharm\teamcity\diff_tools.py", line 32, in _patched_equals
+    old(self, first, second, msg)
+  File "E:\Program Files\Python38\lib\unittest\case.py", line 912, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "E:\Program Files\Python38\lib\unittest\case.py", line 905, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 102 != 101
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\Program Files\JetBrains\RecruitAPI\testcases\test_schoolmange.py", line 42, in test_login
+    self.assertEqual(expected['code'], res['code'], )
+  File "E:\Program Files\JetBrains\PyCharm 2020.1.3\plugins\python\helpers\pycharm\teamcity\diff_tools.py", line 38, in _patched_equals
+    raise error
+teamcity.diff_tools.EqualsAssertionError:  :: 102 != 101
+2022-11-13 00:27:11,705 - [test_schoolmange.py-->line:49] - ERROR: 用例：新增学校类型为空---未通过
+2022-11-13 00:27:11,705 - [test_schoolmange.py-->line:50] - ERROR:  :: 102 != 101
+Traceback (most recent call last):
+  File "E:\Program Files\JetBrains\PyCharm 2020.1.3\plugins\python\helpers\pycharm\teamcity\diff_tools.py", line 32, in _patched_equals
+    old(self, first, second, msg)
+  File "E:\Program Files\Python38\lib\unittest\case.py", line 912, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "E:\Program Files\Python38\lib\unittest\case.py", line 905, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 102 != 101
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\Program Files\JetBrains\RecruitAPI\testcases\test_schoolmange.py", line 42, in test_login
+    self.assertEqual(expected['code'], res['code'], )
+  File "E:\Program Files\JetBrains\PyCharm 2020.1.3\plugins\python\helpers\pycharm\teamcity\diff_tools.py", line 38, in _patched_equals
+    raise error
+teamcity.diff_tools.EqualsAssertionError:  :: 102 != 101
+2022-11-13 00:29:14,577 - [test_schoolmange.py-->line:49] - ERROR: 用例：新增学校名为空---未通过
+2022-11-13 00:29:14,577 - [test_schoolmange.py-->line:50] - ERROR:  :: 102 != 101
+Traceback (most recent call last):
+  File "E:\Program Files\JetBrains\PyCharm 2020.1.3\plugins\python\helpers\pycharm\teamcity\diff_tools.py", line 32, in _patched_equals
+    old(self, first, second, msg)
+  File "E:\Program Files\Python38\lib\unittest\case.py", line 912, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "E:\Program Files\Python38\lib\unittest\case.py", line 905, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 102 != 101
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\Program Files\JetBrains\RecruitAPI\testcases\test_schoolmange.py", line 42, in test_login
+    self.assertEqual(expected['code'], res['code'], )
+  File "E:\Program Files\JetBrains\PyCharm 2020.1.3\plugins\python\helpers\pycharm\teamcity\diff_tools.py", line 38, in _patched_equals
+    raise error
+teamcity.diff_tools.EqualsAssertionError:  :: 102 != 101
+2022-11-13 00:29:14,589 - [test_schoolmange.py-->line:49] - ERROR: 用例：新增学校类型为空---未通过
+2022-11-13 00:29:14,589 - [test_schoolmange.py-->line:50] - ERROR:  :: 102 != 101
+Traceback (most recent call last):
+  File "E:\Program Files\JetBrains\PyCharm 2020.1.3\plugins\python\helpers\pycharm\teamcity\diff_tools.py", line 32, in _patched_equals
+    old(self, first, second, msg)
+  File "E:\Program Files\Python38\lib\unittest\case.py", line 912, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "E:\Program Files\Python38\lib\unittest\case.py", line 905, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 102 != 101
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\Program Files\JetBrains\RecruitAPI\testcases\test_schoolmange.py", line 42, in test_login
+    self.assertEqual(expected['code'], res['code'], )
+  File "E:\Program Files\JetBrains\PyCharm 2020.1.3\plugins\python\helpers\pycharm\teamcity\diff_tools.py", line 38, in _patched_equals
+    raise error
+teamcity.diff_tools.EqualsAssertionError:  :: 102 != 101
+2022-11-13 00:35:11,657 - [test_schoolmange.py-->line:49] - ERROR: 用例：新增学校名为空---未通过
+2022-11-13 00:35:11,657 - [test_schoolmange.py-->line:50] - ERROR:  :: 102 != 101
+Traceback (most recent call last):
+  File "E:\Program Files\JetBrains\PyCharm 2020.1.3\plugins\python\helpers\pycharm\teamcity\diff_tools.py", line 32, in _patched_equals
+    old(self, first, second, msg)
+  File "E:\Program Files\Python38\lib\unittest\case.py", line 912, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "E:\Program Files\Python38\lib\unittest\case.py", line 905, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 102 != 101
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\Program Files\JetBrains\RecruitAPI\testcases\test_schoolmange.py", line 42, in test_login
+    self.assertEqual(expected['code'], res['code'], )
+  File "E:\Program Files\JetBrains\PyCharm 2020.1.3\plugins\python\helpers\pycharm\teamcity\diff_tools.py", line 38, in _patched_equals
+    raise error
+teamcity.diff_tools.EqualsAssertionError:  :: 102 != 101
+2022-11-13 00:35:11,673 - [test_schoolmange.py-->line:49] - ERROR: 用例：新增学校类型为空---未通过
+2022-11-13 00:35:11,673 - [test_schoolmange.py-->line:50] - ERROR:  :: 102 != 101
+Traceback (most recent call last):
+  File "E:\Program Files\JetBrains\PyCharm 2020.1.3\plugins\python\helpers\pycharm\teamcity\diff_tools.py", line 32, in _patched_equals
+    old(self, first, second, msg)
+  File "E:\Program Files\Python38\lib\unittest\case.py", line 912, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "E:\Program Files\Python38\lib\unittest\case.py", line 905, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 102 != 101
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\Program Files\JetBrains\RecruitAPI\testcases\test_schoolmange.py", line 42, in test_login
+    self.assertEqual(expected['code'], res['code'], )
+  File "E:\Program Files\JetBrains\PyCharm 2020.1.3\plugins\python\helpers\pycharm\teamcity\diff_tools.py", line 38, in _patched_equals
+    raise error
+teamcity.diff_tools.EqualsAssertionError:  :: 102 != 101
+2022-11-13 00:39:52,130 - [test_schoolmange.py-->line:49] - ERROR: 用例：新增学校名为空---未通过
+2022-11-13 00:39:52,130 - [test_schoolmange.py-->line:50] - ERROR:  :: 102 != 101
+Traceback (most recent call last):
+  File "E:\Program Files\JetBrains\PyCharm 2020.1.3\plugins\python\helpers\pycharm\teamcity\diff_tools.py", line 32, in _patched_equals
+    old(self, first, second, msg)
+  File "E:\Program Files\Python38\lib\unittest\case.py", line 912, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "E:\Program Files\Python38\lib\unittest\case.py", line 905, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 102 != 101
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\Program Files\JetBrains\RecruitAPI\testcases\test_schoolmange.py", line 42, in test_login
+    self.assertEqual(expected['code'], res['code'], )
+  File "E:\Program Files\JetBrains\PyCharm 2020.1.3\plugins\python\helpers\pycharm\teamcity\diff_tools.py", line 38, in _patched_equals
+    raise error
+teamcity.diff_tools.EqualsAssertionError:  :: 102 != 101
+2022-11-13 00:39:52,143 - [test_schoolmange.py-->line:49] - ERROR: 用例：新增学校类型为空---未通过
+2022-11-13 00:39:52,143 - [test_schoolmange.py-->line:50] - ERROR:  :: 102 != 101
+Traceback (most recent call last):
+  File "E:\Program Files\JetBrains\PyCharm 2020.1.3\plugins\python\helpers\pycharm\teamcity\diff_tools.py", line 32, in _patched_equals
+    old(self, first, second, msg)
+  File "E:\Program Files\Python38\lib\unittest\case.py", line 912, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "E:\Program Files\Python38\lib\unittest\case.py", line 905, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 102 != 101
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\Program Files\JetBrains\RecruitAPI\testcases\test_schoolmange.py", line 42, in test_login
+    self.assertEqual(expected['code'], res['code'], )
+  File "E:\Program Files\JetBrains\PyCharm 2020.1.3\plugins\python\helpers\pycharm\teamcity\diff_tools.py", line 38, in _patched_equals
+    raise error
+teamcity.diff_tools.EqualsAssertionError:  :: 102 != 101
+2022-11-13 00:41:10,396 - [schoolmange.py-->line:46] - ERROR: 用例：新增学校名为空---未通过
+2022-11-13 00:41:10,397 - [schoolmange.py-->line:47] - ERROR:  :: 102 != 101
+Traceback (most recent call last):
+  File "E:\Program Files\JetBrains\PyCharm 2020.1.3\plugins\python\helpers\pycharm\teamcity\diff_tools.py", line 32, in _patched_equals
+    old(self, first, second, msg)
+  File "E:\Program Files\Python38\lib\unittest\case.py", line 912, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "E:\Program Files\Python38\lib\unittest\case.py", line 905, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 102 != 101
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\Program Files\JetBrains\RecruitAPI\testcases\schoolmange.py", line 43, in test_schoolmange
+    self.assertEqual(expected['code'],res['code'],)
+  File "E:\Program Files\JetBrains\PyCharm 2020.1.3\plugins\python\helpers\pycharm\teamcity\diff_tools.py", line 38, in _patched_equals
+    raise error
+teamcity.diff_tools.EqualsAssertionError:  :: 102 != 101
+2022-11-13 00:41:10,409 - [schoolmange.py-->line:46] - ERROR: 用例：新增学校类型为空---未通过
+2022-11-13 00:41:10,409 - [schoolmange.py-->line:47] - ERROR:  :: 102 != 101
+Traceback (most recent call last):
+  File "E:\Program Files\JetBrains\PyCharm 2020.1.3\plugins\python\helpers\pycharm\teamcity\diff_tools.py", line 32, in _patched_equals
+    old(self, first, second, msg)
+  File "E:\Program Files\Python38\lib\unittest\case.py", line 912, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "E:\Program Files\Python38\lib\unittest\case.py", line 905, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 102 != 101
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\Program Files\JetBrains\RecruitAPI\testcases\schoolmange.py", line 43, in test_schoolmange
+    self.assertEqual(expected['code'],res['code'],)
+  File "E:\Program Files\JetBrains\PyCharm 2020.1.3\plugins\python\helpers\pycharm\teamcity\diff_tools.py", line 38, in _patched_equals
+    raise error
+teamcity.diff_tools.EqualsAssertionError:  :: 102 != 101
+2022-11-13 10:08:24,006 - [test_schoolmange.py-->line:49] - ERROR: 用例：新增学校名为空---未通过
+2022-11-13 10:08:24,016 - [test_schoolmange.py-->line:50] - ERROR:  :: 102 != 101
+Traceback (most recent call last):
+  File "E:\Program Files\JetBrains\PyCharm 2020.1.3\plugins\python\helpers\pycharm\teamcity\diff_tools.py", line 32, in _patched_equals
+    old(self, first, second, msg)
+  File "E:\Program Files\Python38\lib\unittest\case.py", line 912, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "E:\Program Files\Python38\lib\unittest\case.py", line 905, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 102 != 101
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\Program Files\JetBrains\RecruitAPI\testcases\test_schoolmange.py", line 42, in test_login
+    self.assertEqual(expected['code'], res['code'], )
+  File "E:\Program Files\JetBrains\PyCharm 2020.1.3\plugins\python\helpers\pycharm\teamcity\diff_tools.py", line 38, in _patched_equals
+    raise error
+teamcity.diff_tools.EqualsAssertionError:  :: 102 != 101
+2022-11-13 10:08:24,032 - [test_schoolmange.py-->line:49] - ERROR: 用例：新增学校类型为空---未通过
+2022-11-13 10:08:24,032 - [test_schoolmange.py-->line:50] - ERROR:  :: 102 != 101
+Traceback (most recent call last):
+  File "E:\Program Files\JetBrains\PyCharm 2020.1.3\plugins\python\helpers\pycharm\teamcity\diff_tools.py", line 32, in _patched_equals
+    old(self, first, second, msg)
+  File "E:\Program Files\Python38\lib\unittest\case.py", line 912, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "E:\Program Files\Python38\lib\unittest\case.py", line 905, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 102 != 101
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\Program Files\JetBrains\RecruitAPI\testcases\test_schoolmange.py", line 42, in test_login
+    self.assertEqual(expected['code'], res['code'], )
+  File "E:\Program Files\JetBrains\PyCharm 2020.1.3\plugins\python\helpers\pycharm\teamcity\diff_tools.py", line 38, in _patched_equals
+    raise error
+teamcity.diff_tools.EqualsAssertionError:  :: 102 != 101
+2022-11-13 10:12:13,985 - [test_schoolmange.py-->line:49] - ERROR: 用例：新增学校名为空---未通过
+2022-11-13 10:12:13,985 - [test_schoolmange.py-->line:50] - ERROR:  :: 102 != 1
+Traceback (most recent call last):
+  File "E:\Program Files\JetBrains\PyCharm 2020.1.3\plugins\python\helpers\pycharm\teamcity\diff_tools.py", line 32, in _patched_equals
+    old(self, first, second, msg)
+  File "E:\Program Files\Python38\lib\unittest\case.py", line 912, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "E:\Program Files\Python38\lib\unittest\case.py", line 905, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 102 != 1
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\Program Files\JetBrains\RecruitAPI\testcases\test_schoolmange.py", line 42, in test_login
+    self.assertEqual(expected['code'], res['code'], )
+  File "E:\Program Files\JetBrains\PyCharm 2020.1.3\plugins\python\helpers\pycharm\teamcity\diff_tools.py", line 38, in _patched_equals
+    raise error
+teamcity.diff_tools.EqualsAssertionError:  :: 102 != 1
+2022-11-13 10:12:14,006 - [test_schoolmange.py-->line:49] - ERROR: 用例：新增学校类型为空---未通过
+2022-11-13 10:12:14,006 - [test_schoolmange.py-->line:50] - ERROR:  :: 102 != 1
+Traceback (most recent call last):
+  File "E:\Program Files\JetBrains\PyCharm 2020.1.3\plugins\python\helpers\pycharm\teamcity\diff_tools.py", line 32, in _patched_equals
+    old(self, first, second, msg)
+  File "E:\Program Files\Python38\lib\unittest\case.py", line 912, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "E:\Program Files\Python38\lib\unittest\case.py", line 905, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 102 != 1
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\Program Files\JetBrains\RecruitAPI\testcases\test_schoolmange.py", line 42, in test_login
+    self.assertEqual(expected['code'], res['code'], )
+  File "E:\Program Files\JetBrains\PyCharm 2020.1.3\plugins\python\helpers\pycharm\teamcity\diff_tools.py", line 38, in _patched_equals
+    raise error
+teamcity.diff_tools.EqualsAssertionError:  :: 102 != 1
+2022-11-13 10:15:13,648 - [test_schoolmange.py-->line:49] - ERROR: 用例：新增学校名为空---未通过
+2022-11-13 10:15:13,648 - [test_schoolmange.py-->line:50] - ERROR:  :: 102 != 1
+Traceback (most recent call last):
+  File "E:\Program Files\JetBrains\PyCharm 2020.1.3\plugins\python\helpers\pycharm\teamcity\diff_tools.py", line 32, in _patched_equals
+    old(self, first, second, msg)
+  File "E:\Program Files\Python38\lib\unittest\case.py", line 912, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "E:\Program Files\Python38\lib\unittest\case.py", line 905, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 102 != 1
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\Program Files\JetBrains\RecruitAPI\testcases\test_schoolmange.py", line 42, in test_login
+    self.assertEqual(expected['code'], res['code'], )
+  File "E:\Program Files\JetBrains\PyCharm 2020.1.3\plugins\python\helpers\pycharm\teamcity\diff_tools.py", line 38, in _patched_equals
+    raise error
+teamcity.diff_tools.EqualsAssertionError:  :: 102 != 1
+2022-11-13 10:15:13,668 - [test_schoolmange.py-->line:49] - ERROR: 用例：新增学校类型为空---未通过
+2022-11-13 10:15:13,668 - [test_schoolmange.py-->line:50] - ERROR:  :: 102 != 1
+Traceback (most recent call last):
+  File "E:\Program Files\JetBrains\PyCharm 2020.1.3\plugins\python\helpers\pycharm\teamcity\diff_tools.py", line 32, in _patched_equals
+    old(self, first, second, msg)
+  File "E:\Program Files\Python38\lib\unittest\case.py", line 912, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "E:\Program Files\Python38\lib\unittest\case.py", line 905, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 102 != 1
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\Program Files\JetBrains\RecruitAPI\testcases\test_schoolmange.py", line 42, in test_login
+    self.assertEqual(expected['code'], res['code'], )
+  File "E:\Program Files\JetBrains\PyCharm 2020.1.3\plugins\python\helpers\pycharm\teamcity\diff_tools.py", line 38, in _patched_equals
+    raise error
+teamcity.diff_tools.EqualsAssertionError:  :: 102 != 1
+2022-11-13 10:16:53,376 - [test_schoolmange.py-->line:49] - ERROR: 用例：新增学校名为空---未通过
+2022-11-13 10:16:53,376 - [test_schoolmange.py-->line:50] - ERROR:  :: 102 != 1
+Traceback (most recent call last):
+  File "E:\Program Files\JetBrains\PyCharm 2020.1.3\plugins\python\helpers\pycharm\teamcity\diff_tools.py", line 32, in _patched_equals
+    old(self, first, second, msg)
+  File "E:\Program Files\Python38\lib\unittest\case.py", line 912, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "E:\Program Files\Python38\lib\unittest\case.py", line 905, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 102 != 1
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\Program Files\JetBrains\RecruitAPI\testcases\test_schoolmange.py", line 42, in test_login
+    self.assertEqual(expected['code'], res['code'], )
+  File "E:\Program Files\JetBrains\PyCharm 2020.1.3\plugins\python\helpers\pycharm\teamcity\diff_tools.py", line 38, in _patched_equals
+    raise error
+teamcity.diff_tools.EqualsAssertionError:  :: 102 != 1
+2022-11-13 10:16:53,396 - [test_schoolmange.py-->line:49] - ERROR: 用例：新增学校类型为空---未通过
+2022-11-13 10:16:53,396 - [test_schoolmange.py-->line:50] - ERROR:  :: 102 != 1
+Traceback (most recent call last):
+  File "E:\Program Files\JetBrains\PyCharm 2020.1.3\plugins\python\helpers\pycharm\teamcity\diff_tools.py", line 32, in _patched_equals
+    old(self, first, second, msg)
+  File "E:\Program Files\Python38\lib\unittest\case.py", line 912, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "E:\Program Files\Python38\lib\unittest\case.py", line 905, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 102 != 1
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\Program Files\JetBrains\RecruitAPI\testcases\test_schoolmange.py", line 42, in test_login
+    self.assertEqual(expected['code'], res['code'], )
+  File "E:\Program Files\JetBrains\PyCharm 2020.1.3\plugins\python\helpers\pycharm\teamcity\diff_tools.py", line 38, in _patched_equals
+    raise error
+teamcity.diff_tools.EqualsAssertionError:  :: 102 != 1
+2022-11-13 15:40:57,950 - [test_schoolmange.py-->line:49] - ERROR: 用例：新增学校名为空---未通过
+2022-11-13 15:40:57,950 - [test_schoolmange.py-->line:50] - ERROR: 102 != 1
+Traceback (most recent call last):
+  File "E:\Program Files\JetBrains\RecruitAPI\testcases\test_schoolmange.py", line 42, in test_login
+    self.assertEqual(expected['code'], res['code'], )
+  File "E:\Program Files\Python38\lib\unittest\case.py", line 912, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "E:\Program Files\Python38\lib\unittest\case.py", line 905, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 102 != 1
+2022-11-13 15:40:57,960 - [test_schoolmange.py-->line:49] - ERROR: 用例：新增学校类型为空---未通过
+2022-11-13 15:40:57,960 - [test_schoolmange.py-->line:50] - ERROR: 102 != 101
+Traceback (most recent call last):
+  File "E:\Program Files\JetBrains\RecruitAPI\testcases\test_schoolmange.py", line 42, in test_login
+    self.assertEqual(expected['code'], res['code'], )
+  File "E:\Program Files\Python38\lib\unittest\case.py", line 912, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "E:\Program Files\Python38\lib\unittest\case.py", line 905, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 102 != 101
+2022-11-13 16:02:51,044 - [test_schoolmange.py-->line:49] - ERROR: 用例：新增学校名为空---未通过
+2022-11-13 16:02:51,044 - [test_schoolmange.py-->line:50] - ERROR:  :: 102 != 1
+Traceback (most recent call last):
+  File "E:\Program Files\JetBrains\PyCharm 2020.1.3\plugins\python\helpers\pycharm\teamcity\diff_tools.py", line 32, in _patched_equals
+    old(self, first, second, msg)
+  File "E:\Program Files\Python38\lib\unittest\case.py", line 912, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "E:\Program Files\Python38\lib\unittest\case.py", line 905, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 102 != 1
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\Program Files\JetBrains\RecruitAPI\testcases\test_schoolmange.py", line 42, in test_login
+    self.assertEqual(expected['code'], res['code'], )
+  File "E:\Program Files\JetBrains\PyCharm 2020.1.3\plugins\python\helpers\pycharm\teamcity\diff_tools.py", line 38, in _patched_equals
+    raise error
+teamcity.diff_tools.EqualsAssertionError:  :: 102 != 1
+2022-11-13 16:02:51,063 - [test_schoolmange.py-->line:49] - ERROR: 用例：新增学校类型为空---未通过
+2022-11-13 16:02:51,064 - [test_schoolmange.py-->line:50] - ERROR:  :: 102 != 1
+Traceback (most recent call last):
+  File "E:\Program Files\JetBrains\PyCharm 2020.1.3\plugins\python\helpers\pycharm\teamcity\diff_tools.py", line 32, in _patched_equals
+    old(self, first, second, msg)
+  File "E:\Program Files\Python38\lib\unittest\case.py", line 912, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "E:\Program Files\Python38\lib\unittest\case.py", line 905, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 102 != 1
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\Program Files\JetBrains\RecruitAPI\testcases\test_schoolmange.py", line 42, in test_login
+    self.assertEqual(expected['code'], res['code'], )
+  File "E:\Program Files\JetBrains\PyCharm 2020.1.3\plugins\python\helpers\pycharm\teamcity\diff_tools.py", line 38, in _patched_equals
+    raise error
+teamcity.diff_tools.EqualsAssertionError:  :: 102 != 1
+2022-11-13 16:18:53,776 - [test_schoolmange.py-->line:49] - ERROR: 用例：新增学校名为空---未通过
+2022-11-13 16:18:53,776 - [test_schoolmange.py-->line:50] - ERROR: 102 != 1
+Traceback (most recent call last):
+  File "E:\Program Files\JetBrains\RecruitAPI\testcases\test_schoolmange.py", line 42, in test_login
+    self.assertEqual(expected['code'], res['code'], )
+  File "E:\Program Files\Python38\lib\unittest\case.py", line 912, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "E:\Program Files\Python38\lib\unittest\case.py", line 905, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 102 != 1
+2022-11-13 16:18:53,790 - [test_schoolmange.py-->line:49] - ERROR: 用例：新增学校类型为空---未通过
+2022-11-13 16:18:53,790 - [test_schoolmange.py-->line:50] - ERROR: 102 != 1
+Traceback (most recent call last):
+  File "E:\Program Files\JetBrains\RecruitAPI\testcases\test_schoolmange.py", line 42, in test_login
+    self.assertEqual(expected['code'], res['code'], )
+  File "E:\Program Files\Python38\lib\unittest\case.py", line 912, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "E:\Program Files\Python38\lib\unittest\case.py", line 905, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 102 != 1
+2022-11-13 16:18:53,920 - [test_schoolmange.py-->line:49] - ERROR: 用例：设置招生计划-限制招生人数为0---未通过
+2022-11-13 16:18:53,920 - [test_schoolmange.py-->line:50] - ERROR: '限制招生人数不能为0' not found in '修改成功'
+Traceback (most recent call last):
+  File "E:\Program Files\JetBrains\RecruitAPI\testcases\test_schoolmange.py", line 43, in test_login
+    self.assertIn(expected['message'], res['message'])
+  File "E:\Program Files\Python38\lib\unittest\case.py", line 1179, in assertIn
+    self.fail(self._formatMessage(msg, standardMsg))
+  File "E:\Program Files\Python38\lib\unittest\case.py", line 753, in fail
+    raise self.failureException(msg)
+AssertionError: '限制招生人数不能为0' not found in '修改成功'
+2022-11-13 16:21:54,730 - [test_schoolmange.py-->line:49] - ERROR: 用例：新增学校名为空---未通过
+2022-11-13 16:21:54,730 - [test_schoolmange.py-->line:50] - ERROR: 102 != 1
+Traceback (most recent call last):
+  File "E:\Program Files\JetBrains\RecruitAPI\testcases\test_schoolmange.py", line 42, in test_login
+    self.assertEqual(expected['code'], res['code'], )
+  File "E:\Program Files\Python38\lib\unittest\case.py", line 912, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "E:\Program Files\Python38\lib\unittest\case.py", line 905, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 102 != 1
+2022-11-13 16:21:54,746 - [test_schoolmange.py-->line:49] - ERROR: 用例：新增学校类型为空---未通过
+2022-11-13 16:21:54,746 - [test_schoolmange.py-->line:50] - ERROR: 102 != 1
+Traceback (most recent call last):
+  File "E:\Program Files\JetBrains\RecruitAPI\testcases\test_schoolmange.py", line 42, in test_login
+    self.assertEqual(expected['code'], res['code'], )
+  File "E:\Program Files\Python38\lib\unittest\case.py", line 912, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "E:\Program Files\Python38\lib\unittest\case.py", line 905, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 102 != 1
+2022-11-13 16:21:54,880 - [test_schoolmange.py-->line:49] - ERROR: 用例：设置招生计划-限制招生人数为0---未通过
+2022-11-13 16:21:54,880 - [test_schoolmange.py-->line:50] - ERROR: '限制招生人数不能为0' not found in '修改成功'
+Traceback (most recent call last):
+  File "E:\Program Files\JetBrains\RecruitAPI\testcases\test_schoolmange.py", line 43, in test_login
+    self.assertIn(expected['message'], res['message'])
+  File "E:\Program Files\Python38\lib\unittest\case.py", line 1179, in assertIn
+    self.fail(self._formatMessage(msg, standardMsg))
+  File "E:\Program Files\Python38\lib\unittest\case.py", line 753, in fail
+    raise self.failureException(msg)
+AssertionError: '限制招生人数不能为0' not found in '修改成功'
+2022-11-13 16:31:25,377 - [test_schoolmange.py-->line:49] - ERROR: 用例：新增学校名为空---未通过
+2022-11-13 16:31:25,378 - [test_schoolmange.py-->line:50] - ERROR: 断言失败了 :: 102 != 101
+Traceback (most recent call last):
+  File "E:\Program Files\JetBrains\PyCharm 2020.1.3\plugins\python\helpers\pycharm\teamcity\diff_tools.py", line 32, in _patched_equals
+    old(self, first, second, msg)
+  File "E:\Program Files\Python38\lib\unittest\case.py", line 912, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "E:\Program Files\Python38\lib\unittest\case.py", line 905, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 102 != 101 : 断言失败了
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\Program Files\JetBrains\RecruitAPI\testcases\test_schoolmange.py", line 42, in test_login
+    self.assertEqual(expected['code'], res['code'],msg='断言失败了')
+  File "E:\Program Files\JetBrains\PyCharm 2020.1.3\plugins\python\helpers\pycharm\teamcity\diff_tools.py", line 38, in _patched_equals
+    raise error
+teamcity.diff_tools.EqualsAssertionError: 断言失败了 :: 102 != 101
+2022-11-13 16:31:25,393 - [test_schoolmange.py-->line:49] - ERROR: 用例：新增学校类型为空---未通过
+2022-11-13 16:31:25,393 - [test_schoolmange.py-->line:50] - ERROR: 断言失败了 :: 102 != 101
+Traceback (most recent call last):
+  File "E:\Program Files\JetBrains\PyCharm 2020.1.3\plugins\python\helpers\pycharm\teamcity\diff_tools.py", line 32, in _patched_equals
+    old(self, first, second, msg)
+  File "E:\Program Files\Python38\lib\unittest\case.py", line 912, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "E:\Program Files\Python38\lib\unittest\case.py", line 905, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 102 != 101 : 断言失败了
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\Program Files\JetBrains\RecruitAPI\testcases\test_schoolmange.py", line 42, in test_login
+    self.assertEqual(expected['code'], res['code'],msg='断言失败了')
+  File "E:\Program Files\JetBrains\PyCharm 2020.1.3\plugins\python\helpers\pycharm\teamcity\diff_tools.py", line 38, in _patched_equals
+    raise error
+teamcity.diff_tools.EqualsAssertionError: 断言失败了 :: 102 != 101
+2022-11-13 16:31:25,529 - [test_schoolmange.py-->line:49] - ERROR: 用例：设置招生计划-限制招生人数为0---未通过
+2022-11-13 16:31:25,529 - [test_schoolmange.py-->line:50] - ERROR: '限制招生人数不能为0' not found in '修改成功'
+Traceback (most recent call last):
+  File "E:\Program Files\JetBrains\RecruitAPI\testcases\test_schoolmange.py", line 43, in test_login
+    self.assertIn(expected['message'], res['message'])
+  File "E:\Program Files\Python38\lib\unittest\case.py", line 1179, in assertIn
+    self.fail(self._formatMessage(msg, standardMsg))
+  File "E:\Program Files\Python38\lib\unittest\case.py", line 753, in fail
+    raise self.failureException(msg)
+AssertionError: '限制招生人数不能为0' not found in '修改成功'
+2022-11-13 16:31:56,939 - [test_schoolmange.py-->line:49] - ERROR: 用例：新增学校名为空---未通过
+2022-11-13 16:31:56,939 - [test_schoolmange.py-->line:50] - ERROR:  :: 102 != 101
+Traceback (most recent call last):
+  File "E:\Program Files\JetBrains\PyCharm 2020.1.3\plugins\python\helpers\pycharm\teamcity\diff_tools.py", line 32, in _patched_equals
+    old(self, first, second, msg)
+  File "E:\Program Files\Python38\lib\unittest\case.py", line 912, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "E:\Program Files\Python38\lib\unittest\case.py", line 905, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 102 != 101
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\Program Files\JetBrains\RecruitAPI\testcases\test_schoolmange.py", line 42, in test_login
+    self.assertEqual(expected['code'], res['code'])
+  File "E:\Program Files\JetBrains\PyCharm 2020.1.3\plugins\python\helpers\pycharm\teamcity\diff_tools.py", line 38, in _patched_equals
+    raise error
+teamcity.diff_tools.EqualsAssertionError:  :: 102 != 101
+2022-11-13 16:31:56,953 - [test_schoolmange.py-->line:49] - ERROR: 用例：新增学校类型为空---未通过
+2022-11-13 16:31:56,953 - [test_schoolmange.py-->line:50] - ERROR:  :: 102 != 101
+Traceback (most recent call last):
+  File "E:\Program Files\JetBrains\PyCharm 2020.1.3\plugins\python\helpers\pycharm\teamcity\diff_tools.py", line 32, in _patched_equals
+    old(self, first, second, msg)
+  File "E:\Program Files\Python38\lib\unittest\case.py", line 912, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "E:\Program Files\Python38\lib\unittest\case.py", line 905, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 102 != 101
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\Program Files\JetBrains\RecruitAPI\testcases\test_schoolmange.py", line 42, in test_login
+    self.assertEqual(expected['code'], res['code'])
+  File "E:\Program Files\JetBrains\PyCharm 2020.1.3\plugins\python\helpers\pycharm\teamcity\diff_tools.py", line 38, in _patched_equals
+    raise error
+teamcity.diff_tools.EqualsAssertionError:  :: 102 != 101
+2022-11-13 16:31:57,090 - [test_schoolmange.py-->line:49] - ERROR: 用例：设置招生计划-限制招生人数为0---未通过
+2022-11-13 16:31:57,090 - [test_schoolmange.py-->line:50] - ERROR: '限制招生人数不能为0' not found in '修改成功'
+Traceback (most recent call last):
+  File "E:\Program Files\JetBrains\RecruitAPI\testcases\test_schoolmange.py", line 43, in test_login
+    self.assertIn(expected['message'], res['message'])
+  File "E:\Program Files\Python38\lib\unittest\case.py", line 1179, in assertIn
+    self.fail(self._formatMessage(msg, standardMsg))
+  File "E:\Program Files\Python38\lib\unittest\case.py", line 753, in fail
+    raise self.failureException(msg)
+AssertionError: '限制招生人数不能为0' not found in '修改成功'
+2023-01-28 13:53:34,810 - [test_schoolmange.py-->line:49] - ERROR: 用例：新增学校名为空---未通过
+2023-01-28 13:53:34,810 - [test_schoolmange.py-->line:50] - ERROR: 102 != 1
+Traceback (most recent call last):
+  File "E:\Program Files\JetBrains\RecruitAPI\testcases\test_schoolmange.py", line 42, in test_login
+    self.assertEqual(expected['code'], res['code'])
+  File "E:\Program Files\Python38\lib\unittest\case.py", line 912, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "E:\Program Files\Python38\lib\unittest\case.py", line 905, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 102 != 1
+2023-01-28 13:53:34,824 - [test_schoolmange.py-->line:49] - ERROR: 用例：新增学校类型为空---未通过
+2023-01-28 13:53:34,824 - [test_schoolmange.py-->line:50] - ERROR: 102 != 1
+Traceback (most recent call last):
+  File "E:\Program Files\JetBrains\RecruitAPI\testcases\test_schoolmange.py", line 42, in test_login
+    self.assertEqual(expected['code'], res['code'])
+  File "E:\Program Files\Python38\lib\unittest\case.py", line 912, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "E:\Program Files\Python38\lib\unittest\case.py", line 905, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 102 != 1
+2023-01-28 13:53:34,992 - [test_schoolmange.py-->line:49] - ERROR: 用例：设置招生计划-限制招生人数为0---未通过
+2023-01-28 13:53:34,992 - [test_schoolmange.py-->line:50] - ERROR: '限制招生人数不能为0' not found in '修改成功'
+Traceback (most recent call last):
+  File "E:\Program Files\JetBrains\RecruitAPI\testcases\test_schoolmange.py", line 43, in test_login
+    self.assertIn(expected['message'], res['message'])
+  File "E:\Program Files\Python38\lib\unittest\case.py", line 1179, in assertIn
+    self.fail(self._formatMessage(msg, standardMsg))
+  File "E:\Program Files\Python38\lib\unittest\case.py", line 753, in fail
+    raise self.failureException(msg)
+AssertionError: '限制招生人数不能为0' not found in '修改成功'
