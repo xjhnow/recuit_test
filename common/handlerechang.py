@@ -12,3 +12,11 @@
 #
 # a = '660B8D2D5359FF6F94F8D3345698F88C'
 # print(len(a))
+
+import re
+
+a = '这是短信验证35461，请收好'
+
+s = '\d+'
+msg = re.search(s,a)
+print(msg.group())

@@ -35,6 +35,7 @@ from common.handlepath import CASEDIR
 from common.handlepath import REPORTDIR
 import datetime
 from BeautifulReport import BeautifulReport
+from common.deletereport import delete_report
 
 date = datetime.datetime.now().strftime("%Y-%m-%d%H%M")
 
@@ -45,6 +46,8 @@ suite = unittest.TestSuite()
 loader = unittest.TestLoader()
 suite.addTest(loader.discover(CASEDIR))
 
+#超过5条报告自动删除
+delete_report()
 
 br = BeautifulReport(suite)
 br.report("招生录取系统测试报告",filename=date+"report.html",report_dir=REPORTDIR)

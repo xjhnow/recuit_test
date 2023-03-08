@@ -2,7 +2,7 @@
 
 # -------------------------------------------------------环境相关-------------------------------------------------------
 
-url = "http://192.168.2.83:8090/recruit.students"
+url = "http://192.168.2.83:8080/recruit.students"
 headers = {
     "Connection": "keep-alive",
     "User-Agent": "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36",

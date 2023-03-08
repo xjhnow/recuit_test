@@ -3,7 +3,7 @@ from common.handleconfig import conf
 
 class DB:
     def __init__(self):
-        #创建一个连接对象
+        #连接数据库
         self.conn = pymysql.connect(host=conf.get("db","host"),
                                     port=conf.getint("db","port"),
                                     user=conf.get("db","user"),
@@ -12,6 +12,7 @@ class DB:
                                     #通过设置游标类型，可以控制查询出来的数据类型
                                     cursorclass=pymysql.cursors.DictCursor
                                     )
+        #创建游标对象
         self.cur = self.conn.cursor()
 
     def find_one(self,sql):
